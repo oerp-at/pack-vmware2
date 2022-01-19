@@ -1,26 +1,17 @@
 {
-	"name": "vmware",
+	"name": "vmware2",
 	"types": ["pack"],
-	"version": "1.4",
-	"homepage": "https://github.com/shinken-monitoring/pack-vmware",
-	"author": "Jean Gabes",
-	"description": "Checks for VMware virtual machine and ESX/ESXi",
-	"contributors": [
+	"version": "2.0",
+	"homepage": "https://github.com/oerp-at/pack-vmware2.git",
+	"author": "Martin Reisenhofer",
+	"description": "Checks for VMware virtual machine and ESX/ESXi (Fork for vmware pack from Jean Gabes)",
+	"contributors": [	  
 	  {
-		"name": "Jean Gabes",
-		"email": "naparuba@gmail.com"
-	  },
-	  {
-		"name": "Imrane Dessai",
-		"email": "dessai.imrane@gmail.com"
-	  },
-          {
-                "name": "Romain Forlot",
-                "email": ""
-          }
-
+        "name": "Martin Reisenhofer",
+        "email": "martin@reisenhofer.biz"
+      }
 	],
-	"repository": "https://github.com/shinken-monitoring/pack-vmware",
+	"repository": "https://github.com/oerp-at/pack-vmware2.git",
 	"keywords": [
 	  "pack",
 	  "vmware",
