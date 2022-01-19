@@ -86,7 +86,7 @@ use strict;
 use warnings;
 use VMware::VIRuntime;
 use Date::Parse;
-use Nagios::Plugin;
+use Monitoring::Plugin;
 
 my %STATES = (
         0       => "ok",
@@ -97,7 +97,7 @@ my %STATES = (
 
 {
     no warnings 'redefine';
-    *Nagios::Plugin::Functions::get_shortname = sub {
+    *Monitoring::Plugin::Functions::get_shortname = sub {
         return undef;
     };
 }
@@ -107,7 +107,7 @@ my $perfdata_uom;
 my $ok_msg;
 my $nok_msg;
 
-my $np = Nagios::Plugin->new(
+my $np = Monitoring::Plugin->new(
     shortname => "",
     usage     => "",
 );
